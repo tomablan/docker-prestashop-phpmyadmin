@@ -2,7 +2,7 @@ version: "3.9"
 services:
   # SOURCE : https://hub.docker.com/r/prestashop/prestashop/
   prestashop:
-    image: prestashop/prestashop:1.7-7.3-apache
+    image: prestashop/prestashop:8.0.4-apache
     restart: always
     networks:
       - prestashop
